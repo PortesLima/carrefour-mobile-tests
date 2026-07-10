@@ -11,19 +11,21 @@ Suíte de testes automatizados para o app `native-demo-app` do WebdriverIO, dese
 - **Relatórios:** Allure Report
 - **Padrão de organização:** Page Object Model
 
-## Por que BrowserStack (e não emulador local)?
+## Decisões técnicas de arquitetura
 
-O desenvolvimento foi realizado em uma máquina com recursos limitados (4GB RAM), insuficiente para rodar o Android Studio e um emulador local de forma estável. Como solução técnica, optou-se por usar o BrowserStack App Automate, que permite executar os testes em dispositivos Android reais na nuvem, sem necessidade de emulação local — uma alternativa prevista no próprio desafio.
+**BrowserStack ao invés de emulador local:** o ambiente de desenvolvimento (4GB RAM) fica abaixo do mínimo recomendado para rodar o Android Studio e um emulador de forma estável, o que geraria uma suíte de testes pouco confiável. Optei por usar o BrowserStack App Automate (opção já prevista no desafio) para executar os testes em dispositivos Android reais na nuvem — solução mais robusta que emulação local e comum em pipelines de CI/CD reais.
 
+**GitHub Actions ao invés de GitLab CI/CD:** o desafio aceita GitHub ou GitLab como controle de versão. Como o repositório está no GitHub, o GitHub Actions é a escolha nativa e coerente, cumprindo integralmente o requisito de execução automática a cada push/PR.
 ## Estrutura do projeto
-
 
 ```
 carrefour-mobile-tests/
 ├── apps/                        # APK do native-demo-app
 ├── test/
 │   ├── pageobjects/
-│   │   └── login.page.js        # Page Object da tela de Login
+│   │   ├── login.page.js        # Page Object da tela de Login
+│   │   ├── navigation.page.js   # Page Object de navegação entre telas
+│   │   └── forms.page.js        # Page Object da tela de Forms
 │   └── specs/
 │       ├── login.spec.js        # Testes da tela de Login
 │       ├── navigation.spec.js   # Testes de navegação entre telas
@@ -32,7 +34,6 @@ carrefour-mobile-tests/
 ├── .env                         # Credenciais do BrowserStack (não versionado)
 └── README.md
 ```
-
 
 ## Como rodar o projeto localmente
 
@@ -53,12 +54,13 @@ BROWSERSTACK_ACCESS_KEY=sua_chave
 3. Rode os testes:
 npm run wdio
 
-## Cenários de teste (10 no total)
+## Cenários de teste (11 no total)
 
-### Login (4 cenários)
+### Login (5 cenários)
 - Deve exibir os campos de email, senha e o botão de login
 - Deve permitir digitar no campo de email
 - Deve permitir digitar no campo de senha (validando que o conteúdo é mascarado por segurança)
+- Deve exibir mensagem de erro ao tentar logar sem preencher os campos
 - Deve realizar login preenchendo email e senha
 
 ### Navegação entre telas (3 cenários)
