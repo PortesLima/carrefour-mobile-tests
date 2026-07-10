@@ -1,0 +1,78 @@
+[90m2026-07-10T17:12:22.665Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m BrowserStack service started with id: 009fdc1d-09bb-4ded-a77f-033d3dbfdd83
+[90m2026-07-10T17:12:22.711Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m _options data: {}
+[90m2026-07-10T17:12:22.713Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m webdriver capabilities data: [{"platformName":"Android","appium:app":"bs://27a770f164e2f6f7f010aa428563218b12df04e6","appium:automationName":"UiAutomator2","bstack:options":{"deviceName":"Google Pixel 7","osVersion":"13.0","projectName":"Carrefour - Desafio Automação Mobile","buildName":"Build 1.0","sessionName":"Testes do native-demo-app"}}]
+[90m2026-07-10T17:12:22.719Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m _config data: {"rootDir":"C:\\Users\\Portes\\OneDrive\\Desktop\\Carrefour mobile\\carrefour-mobile-tests","specs":["./test/specs/**/*.js"],"suites":{},"exclude":[],"capabilities":[],"logLevel":"info","logLevels":{},"groupLogsByTestSpec":false,"excludeDriverLogs":[],"bail":0,"waitforInterval":100,"waitforTimeout":10000,"framework":"mocha","reporters":["spec",["allure",{"outputDir":"allure-results"}]],"services":["appium","browserstack"],"maxInstances":10,"maxInstancesPerCapability":100,"injectGlobals":true,"filesToWatch":[],"connectionRetryTimeout":120000,"connectionRetryCount":3,"execArgv":[],"runnerEnv":{},"runner":"local","shard":{"current":1,"total":1},"specFileRetries":0,"specFileRetriesDelay":0,"specFileRetriesDeferred":false,"autoAssertOnTestEnd":true,"reporterSyncInterval":100,"reporterSyncTimeout":5000,"cucumberFeaturesWithLineNumbers":[],"mochaOpts":{"timeout":60000,"ui":"bdd"},"jasmineOpts":{"defaultTimeoutInterval":10000},"cucumberOpts":{"timeout":10000},"onPrepare":[],"onWorkerStart":[],"onWorkerEnd":[],"before":[],"beforeSession":[],"beforeSuite":[],"beforeHook":[],"beforeTest":[],"beforeCommand":[],"afterCommand":[],"afterTest":[null],"afterHook":[],"afterSuite":[],"afterSession":[],"after":[],"onComplete":[],"onReload":[],"beforeAssertion":[],"afterAssertion":[],"beforeFeature":[],"beforeScenario":[],"beforeStep":[],"afterStep":[],"afterScenario":[],"afterFeature":[],"_":["run","run"],"$0":"node_modules\\@wdio\\cli\\bin\\wdio.js","config-path":"wdio.conf.js","port":4723}
+[90m2026-07-10T17:12:22.838Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m username/accesskey not passed
+[90m2026-07-10T17:12:23.306Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:funnel:test-attempted: 25886.7786 -> 1783703542841.1636 (timeOrigin: 1783703516954.385)
+[90m2026-07-10T17:12:22.846Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m startMain: Starting main process
+[90m2026-07-10T17:12:22.862Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Configuring Cli path.
+[90m2026-07-10T17:12:22.863Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m File C:\Users\Portes\.browserstack already exist
+[90m2026-07-10T17:12:22.873Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Current CLI Path Found: 
+[90m2026-07-10T17:12:23.796Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m response {"message":"Unauthorized"}
+[90m2026-07-10T17:12:23.814Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Is CLI running false
+[90m2026-07-10T17:12:23.797Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Resolved binary path: 
+[90m2026-07-10T17:12:23.801Z[39m [31mERROR[39m [97m@wdio/browserstack-service[39m bootstrap: failed to bootstrap Error: Failed to get CLI binary path. CLI setup failed.
+    at _BrowserstackCLI.start (file:///C:/Users/Portes/OneDrive/Desktop/Carrefour%20mobile/carrefour-mobile-tests/node_modules/@wdio/browserstack-service/build/index.js:10047:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async _BrowserstackCLI.startMain (file:///C:/Users/Portes/OneDrive/Desktop/Carrefour%20mobile/carrefour-mobile-tests/node_modules/@wdio/browserstack-service/build/index.js:9940:9)
+    at async _BrowserstackCLI.bootstrap (file:///C:/Users/Portes/OneDrive/Desktop/Carrefour%20mobile/carrefour-mobile-tests/node_modules/@wdio/browserstack-service/build/index.js:9926:11)
+    at async BrowserstackLauncherService.onPrepare (file:///C:/Users/Portes/OneDrive/Desktop/Carrefour%20mobile/carrefour-mobile-tests/node_modules/@wdio/browserstack-service/build/index.js:12328:9)
+[90m2026-07-10T17:12:23.814Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
+[90m2026-07-10T17:12:23.821Z[39m [33mWARN[39m [97m@wdio/browserstack-service[39m Accessibility Automation on non-BrowserStack infrastructure supports Chrome 100+, Chrome for Testing 141+, and Safari 18.4+.
+[90m2026-07-10T17:12:23.813Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m stop: CLI stop triggered
+[90m2026-07-10T17:12:23.813Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Unconfiguring modules
+[90m2026-07-10T17:12:23.845Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2026-07-10T17:12:23.853Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Setting runSmartSelection: enabled=false, mode=relevantFirst
+[90m2026-07-10T17:12:23.854Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [_extractBuildDetails] Extracted - projectName: undefined, buildName: undefined, buildIdentifier: undefined
+[90m2026-07-10T17:12:23.908Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:automationFrameworkInit: 25886.5737 -> 1783703542840.9587 (timeOrigin: 1783703516954.385)
+[90m2026-07-10T17:12:23.909Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:automationFrameworkStart: 25891.0062 -> 1783703542845.391 (timeOrigin: 1783703516954.385)
+[90m2026-07-10T17:12:23.909Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:cli:on-bootstrap: 25893.8339 -> 1783703542848.219 (timeOrigin: 1783703516954.385)
+[90m2026-07-10T17:12:23.909Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:cli:check-update: 25922.018 -> 1783703542876.403 (timeOrigin: 1783703516954.385)
+[90m2026-07-10T17:12:24.701Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"success":false,"errors":[{"message":"Access to BrowserStack denied due to incorrect credentials.","key":""}],"error_trace_id":"431ee77b-3a71-4c00-81f6-be2a9c8b4902"}
+[90m2026-07-10T17:12:24.701Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Test Plan Id sent in request: undefined
+[90m2026-07-10T17:12:24.702Z[39m [31mERROR[39m [97m@wdio/browserstack-service[39m TEST REPORTING AND ANALYTICS Build creation failed null
+[90m2026-07-10T17:12:24.761Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
+[90m2026-07-10T17:12:25.293Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:pre-test: 25864.932 -> 1783703542819.317 (timeOrigin: 1783703516954.385)
+[90m2026-07-10T17:12:25.294Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:testhub:start: 26895.0062 -> 1783703543849.391 (timeOrigin: 1783703516954.385)
+[90m2026-07-10T17:12:25.294Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:setup: 28012.0963 -> 1783703544966.4812 (timeOrigin: 1783703516954.385)
+[90m2026-07-10T17:12:42.483Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m startMain: Starting main process
+[90m2026-07-10T17:12:42.484Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Configuring Cli path.
+[90m2026-07-10T17:12:42.485Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m File C:\Users\Portes\.browserstack already exist
+[90m2026-07-10T17:12:42.487Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Current CLI Path Found: 
+[90m2026-07-10T17:12:43.153Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m response {"message":"Unauthorized"}
+[90m2026-07-10T17:12:43.157Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Resolved binary path: 
+[90m2026-07-10T17:12:43.751Z[39m [31mERROR[39m [97m@wdio/browserstack-service[39m bootstrap: failed to bootstrap Error: Failed to get CLI binary path. CLI setup failed.
+    at _BrowserstackCLI.start (C:\Users\Portes\OneDrive\Desktop\Carrefour mobile\carrefour-mobile-tests\node_modules\@wdio\browserstack-service\build\index.js:10047:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async _BrowserstackCLI.startMain (C:\Users\Portes\OneDrive\Desktop\Carrefour mobile\carrefour-mobile-tests\node_modules\@wdio\browserstack-service\build\index.js:9940:9)
+    at async _BrowserstackCLI.bootstrap (C:\Users\Portes\OneDrive\Desktop\Carrefour mobile\carrefour-mobile-tests\node_modules\@wdio\browserstack-service\build\index.js:9926:11)
+    at async BrowserstackService.beforeSession (C:\Users\Portes\OneDrive\Desktop\Carrefour mobile\carrefour-mobile-tests\node_modules\@wdio\browserstack-service\build\index.js:13543:9)
+[90m2026-07-10T17:12:43.752Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m stop: CLI stop triggered
+[90m2026-07-10T17:12:43.752Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Unconfiguring modules
+[90m2026-07-10T17:12:43.758Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Device allocation tracking started - waiting for WebDriverIO to create remote session
+[90m2026-07-10T17:12:54.377Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2026-07-10T17:12:54.377Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2026-07-10T17:12:54.393Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 17074.3882 -> 1783703562483.1382 (timeOrigin: 1783703545408.75)
+[90m2026-07-10T17:12:54.394Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:driverInit: 17075.0045 -> 1783703562483.7544 (timeOrigin: 1783703545408.75)
+[90m2026-07-10T17:12:54.394Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:cli:on-bootstrap: 17075.3183 -> 1783703562484.0684 (timeOrigin: 1783703545408.75)
+[90m2026-07-10T17:12:54.394Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:cli:check-update: 17080.1364 -> 1783703562488.8865 (timeOrigin: 1783703545408.75)
+[90m2026-07-10T17:12:54.394Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:findNearestHub: 18346.0306 -> 1783703563754.7805 (timeOrigin: 1783703545408.75)
+[90m2026-07-10T17:12:54.394Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook:after: 28968.815 -> 1783703574377.565 (timeOrigin: 1783703545408.75)
+[90m2026-07-10T17:12:54.394Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:driver:quit: 28968.8936 -> 1783703574377.6436 (timeOrigin: 1783703545408.75)
+[90m2026-07-10T17:12:54.394Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:automate:session-status: 28969.1826 -> 1783703574377.9326 (timeOrigin: 1783703545408.75)
+[90m2026-07-10T17:12:54.394Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:listener:worker-end: 28970.1114 -> 1783703574378.8613 (timeOrigin: 1783703545408.75)
+[90m2026-07-10T17:12:54.394Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:percy:teardown: 28970.7986 -> 1783703574379.5486 (timeOrigin: 1783703545408.75)
+[90m2026-07-10T17:12:54.394Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:worker:save-data: 28970.9446 -> 1783703574379.6946 (timeOrigin: 1783703545408.75)
+[90m2026-07-10T17:12:57.702Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2026-07-10T17:12:57.702Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2026-07-10T17:12:57.703Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Missing Authentication Token/ Build ID
+[90m2026-07-10T17:12:57.706Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:automationFrameworkStop: 60751.2351 -> 1783703577705.62 (timeOrigin: 1783703516954.385)
+[90m2026-07-10T17:12:57.707Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:testhub:stop: 60751.6583 -> 1783703577706.0432 (timeOrigin: 1783703516954.385)
+[90m2026-07-10T17:12:57.793Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m BrowserStack service run ended for id: 009fdc1d-09bb-4ded-a77f-033d3dbfdd83 testhub id: undefined
+[90m2026-07-10T17:12:57.929Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m username/accesskey not passed
+[90m2026-07-10T17:12:57.930Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m If facing any issues, please contact BrowserStack support with the Build Run Id - 009fdc1d-09bb-4ded-a77f-033d3dbfdd83
+[90m2026-07-10T17:12:57.931Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Uploading logs failed due to no credentials
+2026-07-10T17:13:06.419Z DEBUG @wdio/browserstack-service [Performance Upload] Starting upload for worker 12972
+2026-07-10T17:13:06.528Z DEBUG @wdio/browserstack-service [Performance Upload] Total events from files: 18
+2026-07-10T17:13:08.250Z DEBUG @wdio/browserstack-service [Performance Upload] Successfully uploaded to EDS: Bravo
+2026-07-10T17:13:08.256Z DEBUG @wdio/browserstack-service [Performance Upload] Cleaned up 2 temporary report files
